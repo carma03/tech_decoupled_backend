@@ -257,6 +257,7 @@ $databases = [];
  * its location.
  */
 # $settings['config_sync_directory'] = '/directory/outside/webroot';
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config/sync';
 
 /**
  * Settings:
@@ -883,4 +884,3 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_NWbepy4fq2HFg6IX9tU5TU0eZG_3UHIGtppeyQVuUzxYkaoUAZaBoiDmUPzHmzsK8xmLVfw9RA/sync';
