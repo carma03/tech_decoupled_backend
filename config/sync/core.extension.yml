@@ -12,11 +12,13 @@ module:
   ckeditor5: 0
   config: 0
   config_translation: 0
+  consumers: 0
   contact: 0
   content_moderation: 0
   contextual: 0
   datetime: 0
   dblog: 0
+  decoupled_router: 0
   demo_umami_content: 0
   dynamic_page_cache: 0
   editor: 0
@@ -37,6 +39,7 @@ module:
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
+  next: 0
   node: 0
   options: 0
   page_cache: 0
@@ -44,15 +47,20 @@ module:
   path_alias: 0
   responsive_image: 0
   search: 0
+  serialization: 0
   shortcut: 0
+  simple_oauth: 0
+  subrequests: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   update: 0
   user: 0
   views_ui: 0
   workflows: 0
+  pathauto: 1
   content_translation: 10
   views: 10
   demo_umami: 1000
